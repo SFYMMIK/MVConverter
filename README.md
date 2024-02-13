@@ -44,3 +44,12 @@ Enter 'o' for one file or 'm' for multiple files: o
 Enter output format (mp3 / wav) [default=mp3]: mp3
 Enter input file path: /path/to/video.mp4
 Enter output directory: /path/to/output
+```
+
+## License
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
+
+The GNU General Public License is a free, copyleft license for software and other kinds of works. You are free to distribute and modify this software under the condition that any derivative works are also distributed under the same license terms and conditions.
+
+## Contact
+For any questions, issues, or suggestions, feel free to contact the author: [Szymon Grajner](https://sfymmik.web.fc2.com).
