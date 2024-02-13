@@ -12,11 +12,11 @@ This is a simple Minimalistic Video to Audio converter tool created by Szymon Gr
 ## Prerequisites
 
 - Python 3.x
-- `moviepy` library (install via `pip install moviepy`)
+- `moviepy` library (install via `pip3 install moviepy`)
 
 ## Usage
 
-1. Run the program using Python: `python MVConverter.py`
+1. Run the program using Python: `python3 MVConverter.py`
 
 2. Choose whether to convert one file or multiple files.
    
@@ -28,12 +28,18 @@ This is a simple Minimalistic Video to Audio converter tool created by Szymon Gr
 
 4. The program will display an animation while converting the files and notify you upon completion.
 
+## Installation
+
+```shell
+git clone https://github.com/SFYMMIK/MVConverter.git
+```
+
 ## Example
 
 ### Convert a Single Video File
 
 ```shell
-$ python MVConverter.py
+python3 MVConverter.py
 Enter 'o' for one file or 'm' for multiple files: o
 Enter output format (mp3 / wav) [default=mp3]: mp3
 Enter input file path: /path/to/video.mp4
