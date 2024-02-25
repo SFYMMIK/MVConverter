@@ -9,12 +9,12 @@ This is a simple Minimalistic Video to Audio converter tool created by Szymon Gr
 - Supported input video formats: `.mp4`, `.mkv`, `.avi`, `.wmv`, `.flv`, `.mov`.
 - Supported output audio formats: `.mp3`, `.wav`.
 
-## Prerequisites
+## Windows Usage
 
-- Python 3.x
-- `moviepy` library (install via `pip3 install moviepy`)
+- Python 3.8 or higher
+- `moviepy` library (install via `pip install moviepy`)
 
-## Usage
+## Linux Usage
 
 1. Run the program using Python: `python3 MVConverter.py`
 
@@ -28,7 +28,7 @@ This is a simple Minimalistic Video to Audio converter tool created by Szymon Gr
 
 4. The program will display an animation while converting the files and notify you upon completion.
 
-## Installation
+## Installation With Git
 
 ```shell
 git clone https://github.com/SFYMMIK/MVConverter.git
