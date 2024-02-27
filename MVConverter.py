@@ -1,5 +1,3 @@
-# ATTENTION!!! This Program Has Been Made By Szymon Grajner And Is Not Suitable For Paid Reproduction
-import sys
 import sys
 import os
 import time
@@ -30,7 +28,11 @@ def convert_audio(input_files, output_format, output_directory):
 
         video = VideoFileClip(input_file)
         audio = video.audio
-        audio.write_audiofile(output_file)
+
+        if output_format == 'mp3':
+            audio.write_audiofile(output_file, codec='libmp3lame', bitrate='320k', ffmpeg_params=['-ar', '44100'])
+        elif output_format == 'wav':
+            audio.write_audiofile(output_file, codec='pcm_s16le', bitrate='705k', ffmpeg_params=['-ar', '92000'])
 
         print('\b', end='', flush=True)  # Clear the animation
         print("Conversion complete!")
