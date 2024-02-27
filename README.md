@@ -1,5 +1,10 @@
 # MVConverter
 
+# New Patch:
+- Just Making Sure That The Program Gives You The Best Audio Quality
+- WAV: 320kbps and 92000hz
+- MP3: 320kbps and 44100hz
+
 ## Description
 This is a simple Minimalistic Video to Audio converter tool created by Szymon Grajner[Me]. It allows you to convert Video files between two formats: MP3 and WAV.
 
