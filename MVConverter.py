@@ -32,7 +32,7 @@ def convert_audio(input_files, output_format, output_directory):
         if output_format == 'mp3':
             audio.write_audiofile(output_file, codec='libmp3lame', bitrate='320k', ffmpeg_params=['-ar', '44100'])
         elif output_format == 'wav':
-            audio.write_audiofile(output_file, codec='pcm_s16le', bitrate='705k', ffmpeg_params=['-ar', '92000'])
+            audio.write_audiofile(output_file, codec='pcm_s16le', bitrate='320k', ffmpeg_params=['-ar', '92000'])
 
         print('\b', end='', flush=True)  # Clear the animation
         print("Conversion complete!")
